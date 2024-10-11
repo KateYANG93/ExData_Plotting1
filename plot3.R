@@ -56,7 +56,6 @@ axis(1, at = x_labels, labels = weekdays_labels, las = 1)
 
 # Add legend
 # Get the current plot's x and y limits to help position the legend, 
-# only use "topright" will remove _1/2/3
 legend("topright",
        legend=c("Sub_Metering_1","Sub_Metering_2","Sub_Metering_3"),lty = 1,,col=c("black","red","blue"),
        text.width = 51399 ) # Increase the width of the text area, making the box wider.Since in png format the text is out of legend box
