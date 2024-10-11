@@ -69,8 +69,8 @@ axis(1, at = x_labels, labels = weekdays_labels, las = 1)
 xlim <- par("usr")[1:2]  # x-axis limits
 ylim <- par("usr")[3:4]  # y-axis limits
 
-legend(x = 0.5*xlim[2] + 0.5*xlim[1],  # Adjust x position (move left by 0.5 units)
-       y = 0.95*ylim[2] +0.05* ylim[1],        # Keep y position at the top
+legend(x = 0.5*xlim[2] + 0.5*xlim[1],  #move legend position horizentally
+       y = 0.95*ylim[2] +0.05* ylim[1],       # move legend position vertically
        legend=c("Sub_Metering_1","Sub_Metering_2","Sub_Metering_3"),lty = 1,,col=c("black","red","blue"),
        bty = "n", #remove box
        cex = 0.8) #smaller text
